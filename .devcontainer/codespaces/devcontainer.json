@@ -1,0 +1,17 @@
+{
+    "name": "Personium Core Development Container",
+    "dockerComposeFile": [
+        "../docker-compose.yml",
+        "../docker-compose.remote.yml"
+    ],
+    "service": "personium-core-dev",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "vscjava.vscode-java-pack",
+        "shengchen.vscode-checkstyle",
+        "ms-ceintl.vscode-language-pack-ja",
+        "eamodio.gitlens"
+    ],
+    "settings": {
+    }
+}
